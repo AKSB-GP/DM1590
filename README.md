@@ -33,12 +33,11 @@ In total there are 36275 cases, 67% were not cancelled while 33% of the reservat
 Methodology
 The problem to solve is to identify whether a reservations is going to be cancelled or not and thus it becomes a classification problem.
 
-Our work consisted of three primary stages:
+## Our work consisted of three primary stages:
 
 Analysis of the data
 Execution
 Evaluation
-To be more efficient through this project we split the work between different group members
 
 In this project the main evaluation metrics of interest will be Recall and precision. This is because we don't want the hotel to cancel a reservation because of the prediction and then realize that the guest would arrive anyway.
 
@@ -46,4 +45,3 @@ Precision is a metric that answers the question "What proportions of positive id
 
 Recall is a metric that answers the question "What proportion of actual positives was identified correctly?" In other words the recall is calculated by True positives/(True Positives + False Negatives)
 
-Of the two
